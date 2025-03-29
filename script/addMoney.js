@@ -6,6 +6,7 @@ document
     const convertedAmount = parseFloat(amount);
     const selectedBank = document.getElementById("allbank").value;
     const account = document.getElementById("account").value;
+    
     const pin = document.getElementById("pin").value;
     const convertedPin = parseInt(pin);
     const mainBalance = document.getElementById("main-balance").innerText;
